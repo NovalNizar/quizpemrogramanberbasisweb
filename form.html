@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM INPUT</title>
+</head>
+<body>
+    <p>
+        <h1 style="color:blue"><center>QUIZ PEMROGRAMAN BERBASISW WEB</center></h1>
+    <hr />
+    <h1>
+        <center>
+        <a href="list.html">List Jurusan</a>
+        <a href="index.html">Index</a>
+        <a href="form.html">Form</a>
+        <a href="tabel.html">Tabel</a>
+        <a href="about.html">About</a>
+        </center>
+    </h1>
+    </center>
+     <center>
+        <h1>RENTAL MOBIL</h1>
+        <form action="proses.php" method="post">
+            <table widht="400">
+                <tr>
+                    <td>NO IDENTITAS</td>
+                    <td><input type="text" name="KTP" /></td>
+                </tr>
+                <tr>
+                    <td>NAMA</td>
+                    <td><input type="text" name="NAMA" /></td>
+                </tr>
+                <tr>
+                    <td>NO HP</td>
+                    <td><input type="text" name="NOHP" /></td>
+                </tr>
+                <tr>
+                    <td>EMAIL</td>
+                    <td><input type="text" name="EMAIL" /></td>
+                </tr>
+                <tr>
+                    <td>ALAMAT</td>
+                    <td><input type="text" name="ALAMAT" /></td>
+                </tr>
+                <tr>
+                    <td><label>JENIS MOBIL</label></td>
+                    <td>
+                        <select name="JENIS MOBIL">
+                            <option value="BUGATTI CHIRON">BUGATTI CHIRON</option>
+                            <option value="MERCEDES AMG GT">MERCEDES AMG GT</option>
+                            <option value="MCLAREN 720S">MCLEREN 720S</option>
+                            <option value="ASTON MARTIN DB11">ASTON MARTIN DB11</option>
+                            <option value="FERRARI 812">FERRARI 812</option>
+                            <option value="LAMBORGHINI AVENTADOR">LAMBORGHINI AVENTADOR</option>
+                            <option value="TOYOTA SUPRA">TOYOTA SUPRA</option>
+                            <option value="HONDA ACURA NXS">HONDA ACURA NXS</option>
+                            <option value="NISSAN GT R">NISSAN GT R</option>
+                            <option value="MUSTANG GT">MUSTANG GT</option>
+                        </select>
+                    </td>
+                </tr>
+                    <tr>
+                        <td><label>JENIS SEWA</label></td>
+                        <td>
+                            <div>
+                                <input type="radio" id="LEPAS_KUNCI" name="LEPAS_KUNCI" value="LEPAS KUNCI">
+                                <label for="LEPAS_KUNCI">DENGAN SOPIR</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="DENGAN_SOPIR" name="DENGAN_SOPIR" value="DENGAN_SOPIR">
+                                <label for="LEPAS_KUNCI">DENGAN SOPIR</label>
+                            </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>TANGGAL SEWA</label></td>
+                        <td>
+                            <input name="date" name="tanggal" />
+                            <input name="date" name="tgl sewa" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="SAVE" type="SUBMIT" value="SUBMIT" />
+                            <input type="BTNBATAL" type="RESET" value="BATAL" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </p>
+</body>
+</html>
